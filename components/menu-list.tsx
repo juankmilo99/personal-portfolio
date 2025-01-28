@@ -48,6 +48,12 @@ const MenuList = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
+                    <NavigationMenuLink  onClick={() => handleScroll("projects")} className={navigationMenuTriggerStyle()}>
+                        Proyectos
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
                     <NavigationMenuLink  onClick={() => handleScroll("contact")} className={navigationMenuTriggerStyle()}>
                         Contacto
                     </NavigationMenuLink>
