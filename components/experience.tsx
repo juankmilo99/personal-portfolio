@@ -30,9 +30,9 @@ export function Experience() {
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Tpi empresarial | Enero 2024 - Enero 2025</p>
         <p className="text-lg leading-relaxed">
           Implementación y soporte de aplicaciones web en <span className="font-semibold">React.js </span> y  
-          <span className="font-semibold">Angular.js</span>, utilizando <span className="font-semibold">Java SpringBoot</span>. 
+          <span className="font-semibold">  Angular.js</span>, utilizando <span className="font-semibold">Java SpringBoot</span>. 
           Gestión de versiones en <span className="font-semibold">Docker</span> y 
-          <span className="font-semibold">Git</span>, con énfasis en escalabilidad y buenas prácticas.
+          <span className="font-semibold">  Git</span>, con énfasis en escalabilidad y buenas prácticas.
         </p>
       </div>
     </section>
