@@ -22,6 +22,7 @@ const ItemsMenuMobile = () => {
         <button onClick={() => handleScroll("experience")} className="block mb-3">Experiencia</button>
         <button onClick={() => handleScroll("education")} className="block mb-3">Educación</button>
         <button onClick={() => handleScroll("skills")} className="block mb-3">Skills</button>
+        <button onClick={() => handleScroll("projects")} className="block mb-3">Proyectos</button>
         <button onClick={() => handleScroll("contact")} className="block mb-3">Contacto</button>
       </PopoverContent>
     </Popover>
