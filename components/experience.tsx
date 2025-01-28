@@ -11,7 +11,9 @@ export function Experience() {
         <Briefcase className="w-8 h-8 text-green-500 dark:text-green-400 mr-2" />
         <h2 className="text-4xl md:text-5xl font-bold">Experiencia</h2>
       </div>
-      <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+
+      {/* Primera experiencia */}
+      <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
         <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack Junior</h3>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Skepsify | Junio 2021 - Septiembre 2023</p>
         <p className="text-lg leading-relaxed">
@@ -19,6 +21,18 @@ export function Experience() {
           <span className="font-semibold">Oracle</span>, utilizando <span className="font-semibold">Angular</span> y 
           <span className="font-semibold">AWS EC2</span>. Gestión con <span className="font-semibold">Docker</span> y 
           <span className="font-semibold">Git</span>, creando soluciones innovadoras para el cliente.
+        </p>
+      </div>
+
+      {/* Segunda experiencia */}
+      <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+        <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack</h3>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Tpi empresarial | Enero 2024 - Enero 2025</p>
+        <p className="text-lg leading-relaxed">
+          Implementación y soporte de aplicaciones web en <span className="font-semibold">React.js </span> y  
+          <span className="font-semibold">Angular.js</span>, utilizando <span className="font-semibold">Java SpringBoot</span>. 
+          Gestión de versiones en <span className="font-semibold">Docker</span> y 
+          <span className="font-semibold">Git</span>, con énfasis en escalabilidad y buenas prácticas.
         </p>
       </div>
     </section>
