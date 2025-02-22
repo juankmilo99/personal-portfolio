@@ -40,6 +40,14 @@ const projects = [
     technologies: ["Next.js", "React.js", "Node.js", "Express"],
     url: "https://ecommerce-coffe.netlify.app/",
   },
+  {
+    title: "FinanzasApp",
+    institution: "JxcrDev",
+    description:
+      "Aplicacion para gestionar finanzas personales con metricas y graficas para un manejo completo de tu dinero.",
+    technologies: ["Next.js", "React.js", "Node.js", "Express", "Chart.js", "PostgreSQL"],
+    url: "https://financezaar.netlify.app/",
+  },
 ];
 
 const Projects = () => {
