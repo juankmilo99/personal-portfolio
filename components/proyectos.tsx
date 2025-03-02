@@ -48,6 +48,15 @@ const projects = [
     technologies: ["Next.js", "React.js", "Node.js", "Express", "Chart.js", "PostgreSQL"],
     url: "https://financezaar.netlify.app/",
   },
+  
+  {
+    title: "AdminMannagerApp",
+    institution: "JxcrDev",
+    description:
+      "Aplicacion para gestionar su negocio con manejo de proveedores, gestion de reuniones y eventos por calendario ademas de graficas con todas las metricas de su empresa.",
+    technologies: ["Next.js", "React.js", "Node.js", "PrismaORM", "Recharts.js", "Clerk.js","PostgreSQL"],
+    url: "https://admin-companiees.netlify.app/",
+  },
 ];
 
 const Projects = () => {
