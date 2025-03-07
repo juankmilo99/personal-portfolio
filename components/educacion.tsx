@@ -13,56 +13,53 @@ export function Education() {
         <GraduationCap className="w-8 h-8 text-purple-500 dark:text-purple-400 mr-2" />
         <h2 className="text-4xl md:text-5xl font-bold">Educación</h2>
       </div>
+    <MotionTransition>
+
       <div className="space-y-8 max-w-3xl">
-        <MotionTransition>
-          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6">            
-            <h3 className="text-2xl font-semibold">Universidad Santo Tomás Seccional Tunja</h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Ingeniería de Sistemas | 2019 - 2023</p>
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6">            
+          <h3 className="text-2xl font-semibold">Universidad Santo Tomás Seccional Tunja</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Ingeniería de Sistemas | 2019 - 2023</p>
+          <p className="text-lg leading-relaxed">
+            Estudios centrados en el desarrollo de software, bases de datos, y tecnologías emergentes como inteligencia artificial y machine learning.
+          </p>
+        </div>
+
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
+          <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
+          <div>
+            <h3 className="text-2xl font-semibold">Curso de Spring Boot</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Backend con Spring Boot | 2023</p>
             <p className="text-lg leading-relaxed">
-              Estudios centrados en el desarrollo de software, bases de datos, y tecnologías emergentes como inteligencia artificial y machine learning.
+              Especialización en creación de aplicaciones Backend, Java, Junit y mockito, con énfasis en escalabilidad y buenas prácticas.
             </p>
           </div>
-        </MotionTransition>
+        </div>
 
-        <MotionTransition>
-          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
-            <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
-            <div>
-              <h3 className="text-2xl font-semibold">Curso de Spring Boot</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Backend con Spring Boot | 2023</p>
-              <p className="text-lg leading-relaxed">
-                Especialización en creación de aplicaciones Backend, Java, Junit y mockito, con énfasis en escalabilidad y buenas prácticas.
-              </p>
-            </div>
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
+          <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
+          <div>
+            <h3 className="text-2xl font-semibold">Curso de Angular.js</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Frontend con Angular.js | 2023</p>
+            <p className="text-lg leading-relaxed">
+              Especialización en creación de aplicaciones reactivas(SPA), typescript, y Node.js.
+            </p>
           </div>
-        </MotionTransition>
+        </div>
 
-        <MotionTransition>
-          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
-            <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
-            <div>
-              <h3 className="text-2xl font-semibold">Curso de Angular.js</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Frontend con Angular.js | 2023</p>
-              <p className="text-lg leading-relaxed">
-                Especialización en creación de aplicaciones reactivas(SPA), typescript, y Node.js.
-              </p>
-            </div>
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
+          <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
+          <div>
+            <h3 className="text-2xl font-semibold">Curso de Next.js</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Frontend con Next.js | 2024</p>
+            <p className="text-lg leading-relaxed">
+              Especialización en creación de aplicaciones modernas utilizando Next.js, React.js, y Node.js.
+            </p>
           </div>
-        </MotionTransition>
+        </div>
 
-        <MotionTransition>
-          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 flex items-start">
-            <FaBook className="w-8 h-8 text-blue-500 dark:text-blue-400 mr-4" />
-            <div>
-              <h3 className="text-2xl font-semibold">Curso de Next.js</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Certificado en Desarrollo Frontend con Next.js | 2024</p>
-              <p className="text-lg leading-relaxed">
-                Especialización en creación de aplicaciones modernas utilizando Next.js, React.js, y Node.js.
-              </p>
-            </div>
-          </div>
-        </MotionTransition>
+        
       </div>
+      </MotionTransition>
     </section>
   );
 }
