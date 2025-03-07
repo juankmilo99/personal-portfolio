@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import { MotionTransition } from "./MotionTransition";
 
 const projects = [
   {
@@ -71,7 +72,7 @@ const Projects = () => {
   return (
     <section id="projects" className="min-h-screen py-12 px-6">
       <h2 className="text-4xl mb-12 text-center font-bold">🚀 Proyectos</h2>
-
+  <MotionTransition>
       <div className="w-full max-w-5xl mx-auto overflow-hidden">
         <Carousel className="w-full" plugins={[pluginRef.current]}>
           <CarouselContent className="flex snap-x snap-mandatory pl-4">
@@ -116,6 +117,7 @@ const Projects = () => {
           </CarouselContent>
         </Carousel>
       </div>
+      </MotionTransition>
     </section>
   );
 };

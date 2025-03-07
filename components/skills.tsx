@@ -3,6 +3,7 @@
 import React, { use } from "react";
 import { BadgeCheck } from "lucide-react";
 import { FaCode } from "react-icons/fa";
+import { MotionTransition } from "./MotionTransition";
 
 export function Skills() {
   const skills = [
@@ -44,26 +45,32 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col items-start justify-start text-left px-6 md:px-12 lg:px-24 py-16 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200"
+      className="w-full min-h-screen flex flex-col items-start justify-start text-left px-6 md:px-12 lg:px-24 py-16 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200"
     >
       <div className="flex items-center mb-6">
         <BadgeCheck className="w-6 h-6 text-green-500 dark:text-green-400 mr-2 stroke-2" />
         <h2 className="text-4xl md:text-5xl font-bold">Skills</h2>
       </div>
       {/* Diseño de cuadrícula adaptable */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full">
-        {skills.map((skill, index) => (
-          <a
-            key={index}
-            href={skill.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white dark:bg-gray-800 rounded-lg border border-green-500 p-2 flex items-center justify-center text-sm font-medium text-center w-full hover:bg-green-100 dark:hover:bg-green-900 transition-all"
-          >
-            {skill.name}
-          </a>
-        ))}
+      <div className="w-full">
+      <MotionTransition >
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {skills.map((skill) => (
+            <a
+              key={skill.name}
+              href={skill.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-800 rounded-lg border border-green-500 p-2 flex items-center justify-center text-sm font-medium text-center w-full hover:bg-green-100 dark:hover:bg-green-900 transition-all"
+            >
+              {skill.name}
+            </a>
+          ))}
+        </div>
+      </MotionTransition>
       </div>
+      
     </section>
   );
 }
+

@@ -1,5 +1,6 @@
 import React from "react";
 import { Briefcase } from "lucide-react";
+import { MotionTransition } from "./MotionTransition";
 
 export function Experience() {
   return (
@@ -13,6 +14,8 @@ export function Experience() {
       </div>
 
       {/* Primera experiencia */}
+
+      <MotionTransition>
       <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
         <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack Junior</h3>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Skepsify | Junio 2021 - Septiembre 2023</p>
@@ -23,8 +26,10 @@ export function Experience() {
           <span className="font-semibold">Git</span>, creando soluciones innovadoras para el cliente.
         </p>
       </div>
+      </MotionTransition>
 
       {/* Segunda experiencia */}
+      <MotionTransition>
       <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
         <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack</h3>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Tpi empresarial | Enero 2024 - Enero 2025</p>
@@ -35,6 +40,9 @@ export function Experience() {
           <span className="font-semibold">  Git</span>, con énfasis en escalabilidad y buenas prácticas.
         </p>
       </div>
+      </MotionTransition>
+
+     
     </section>
   );
 }
