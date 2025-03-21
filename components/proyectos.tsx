@@ -62,7 +62,7 @@ const projects = [
     title: "SocialMediaApp",
     institution: "JxcrDev",
     description:
-      "Aplicacion para gestionar sus redes sociales con manejo de publicaciones, comentarios y likes ademas de inicio de sesion con JWT.",
+      "Aplicacion de red social con manejo de publicaciones, comentarios y likes ademas de inicio de sesion con JWT.",
     technologies: [ "React.js", "Node.js", "Hibernate", "Java", "Spring","PostgreSQL"],
     url: "https://social-site-app.netlify.app/",
   },
