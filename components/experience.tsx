@@ -16,16 +16,12 @@ export function Experience() {
       {/* Primera experiencia */}
       <MotionTransition>
         <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
-          <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack</h3>
+          <h3 className="text-2xl font-semibold mb-2">Desarrollador fullstack</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-            Tpi empresarial | Enero 2024 - Enero 2025
+            Skepsify | Enero 2024 - Enero 2025
           </p>
           <p className="text-lg leading-relaxed">
-            Implementación y soporte de aplicaciones web en <span className="font-semibold">Angular.js</span>,
-            utilizando <span className="font-semibold">Spring Framework WebFlux</span> y bases de datos
-            relacionales. Gestión de versiones con <span className="font-semibold">Docker</span> y
-            <span className="font-semibold">Git</span>, integrando <span className="font-semibold">Copilot</span>
-            como herramienta de apoyo al desarrollo, con énfasis en escalabilidad y buenas prácticas.
+            Implementación y soporte de aplicaciones web en Angular.js, utilizando spring framework webflux bases de datos relacionales. Gestión de versiones en Docker y Git, integrando copilot como herramienta de apoyo al desarrollo, con énfasis en escalabilidad y buenas prácticas.
           </p>
         </div>
       </MotionTransition>
@@ -33,17 +29,12 @@ export function Experience() {
       {/* Segunda experiencia */}
       <MotionTransition>
         <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
-          <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack</h3>
+          <h3 className="text-2xl font-semibold mb-2">Desarrollador fullstack</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-            Skepsify | Mayo 2025 - Septiembre 2025
+            Raddar Studios | mayo 2025 - septiembre 2025
           </p>
           <p className="text-lg leading-relaxed">
-            Implementación y soporte de aplicaciones web en <span className="font-semibold">Angular.js</span> y
-            <span className="font-semibold">.NET Framework</span> (procedimientos almacenados y programación
-            reactiva), con <span className="font-semibold">SQL Server</span>. Gestión de versiones con
-            <span className="font-semibold">Docker</span> y <span className="font-semibold">Git</span>,
-            integrando <span className="font-semibold">Copilot</span> como herramienta de apoyo al desarrollo,
-            con énfasis en escalabilidad y buenas prácticas.
+            Implementación y soporte de aplicaciones web en Angular.js y .Net framework (procedimientos almacenados y programación reactiva) SQLserver bases de datos Gestión de versiones en Docker y Git, integrando copilot como herramienta de apoyo al desarrollo, con énfasis en escalabilidad y buenas prácticas.
           </p>
         </div>
       </MotionTransition>
@@ -51,15 +42,12 @@ export function Experience() {
       {/* Tercera experiencia */}
       <MotionTransition>
         <div className="max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
-          <h3 className="text-2xl font-semibold mb-2">Desarrollador Fullstack</h3>
+          <h3 className="text-2xl font-semibold mb-2">Desarrollador fullstack</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-            Raddar Studios | Enero 2026 - Presente
+            Tpi empresarial | enero 2026 - presente
           </p>
           <p className="text-lg leading-relaxed">
-            Implementación y soporte de microservicios en <span className="font-semibold">Java Spring WebFlux</span>,
-            <span className="font-semibold">Oracle</span>, usando <span className="font-semibold">Angular</span> y
-            <span className="font-semibold">AWS EC2</span>. Gestión con <span className="font-semibold">Docker</span>
-            y <span className="font-semibold">Git</span>, creando soluciones para el cliente.
+            Implementación y soporte de Microservicios en Java Spring webflux, Oracle, usando Angular y AWS EC2, Docker, git, creando soluciones para el cliente.
           </p>
         </div>
       </MotionTransition>
